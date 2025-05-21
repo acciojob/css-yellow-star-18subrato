@@ -1,38 +1,7 @@
 .star {
-      position: relative;
       display: block;
-      color: gold;
-      width: 0px;
-      height: 0px;
+      width: 100px;
+      height: 100px;
+      fill: yellow; /* RGB (255, 255, 0) */
       margin: 50px auto;
-    }
-
-    .star:before,
-    .star:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 0;
-      border-right:  100px solid transparent;
-      border-bottom: 70px solid gold;
-      border-left:   100px solid transparent;
-      transform: rotate(35deg);
-    }
-
-    .star:after {
-      transform: rotate(-35deg);
-    }
-
-    .star-inner {
-      position: absolute;
-      top: -45px;
-      left: -100px;
-      width: 0;
-      height: 0;
-      border-right: 100px solid transparent;
-      border-bottom: 70px solid gold;
-      border-left: 100px solid transparent;
-      transform: rotate(0deg);
     }
